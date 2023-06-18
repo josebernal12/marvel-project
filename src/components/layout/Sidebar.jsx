@@ -1,3 +1,6 @@
+import { Outlet } from "react-router-dom";
+import { Header } from "./Header";
+
 export const Sidebar = () => {
   return (
     <div className="container-fluid">
@@ -165,7 +168,10 @@ export const Sidebar = () => {
             </div>
           </div>
         </div>
-        <div className="col py-3">Content area...</div>
+        <div className="col py-3">
+          <Header />
+          {Outlet}
+        </div>
       </div>
     </div>
   );

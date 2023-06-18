@@ -66,46 +66,6 @@ font-weight: bold;
   grid-template-columns: repeat(1, 1fr);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.menu-horizontal{
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-
-}
-.menu-horizontal > li > a{
-  display: block;
-  padding: 15px 20px;
-  color: white;
-  text-decoration: none;
-}
-.menu-horizontal > li:hover{
-  background-color: red;
-}
-.menu-vertical{
-  position: absolute;
-  display: none;
-  list-style: none;
-  width: 200px;
-  background-color: white;
-}
-.menu-horizontal li:hover .menu-vertical{
-  display: block;
+.header-search {
+  width: 50rem;
 }
