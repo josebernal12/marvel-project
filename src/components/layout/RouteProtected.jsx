@@ -1,6 +1,7 @@
-import { Sidebar } from './Sidebar'
+import { Dashboard } from '../Dashboard'
 export const RouteProtected = () => {
   return (
-    <Sidebar/>
+    <Dashboard/>
+    
   )
 }
