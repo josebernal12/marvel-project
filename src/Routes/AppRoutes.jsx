@@ -9,7 +9,7 @@ function AppRoutes() {
     <Routes>
       <Route path="/" element={<AuthLayout />}>
         <Route index element={<Login />} />
-        <Route path="/regiter" element={<Register />} />
+        <Route path="register" element={<Register />} />
       </Route>
       <Route path="/marvel" element={<Marvel/>}/>
     </Routes>
