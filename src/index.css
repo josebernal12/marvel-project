@@ -13,9 +13,7 @@ body {
 }
 
 .bg-layout {
-  background-image: url(../public/img/red.jpg);
-  background-size: cover;
- background-position: center;
+background-color: #010000;
   
 }
 
