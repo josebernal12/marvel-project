@@ -1,3 +1,27 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*::before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+
 .bg-layout {
   background-color: black;
+  padding: 50px;
+}
+
+.header {
+  font-size: 5rem;
+}
+.width-login {
+    min-width: 40rem;
+    height: 35rem;
+    margin-top: 10rem;
 }
