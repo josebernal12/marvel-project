@@ -21,17 +21,17 @@ export const Login = () => {
     <form onSubmit={onSubmit}>
     
         <div className="form-grid">
-            <label>Email</label>
+            <label className="text-white">Email</label>
         <input placeholder="email" type="email" name='email' value={email} onChange={onInputChange} />
         </div>
         <div className="form-grid">
-            <label>Password</label>
+            <label className="text-white">Password</label>
         <input placeholder="Password" type="password" name='password' value={password} onChange={onInputChange} />
         </div>
         
        
         <input className="btn btn-primary"  value='Inicia Sesion' type='submit'/>
-        <p>¿No Tienes una cuenta? <Link to='/register'>Crea una Cuenta</Link></p>
+        <h5 className="text-white">¿No Tienes una cuenta? <Link to='/register'>Crea una Cuenta</Link></h5>
     </form>
   
   </div>
