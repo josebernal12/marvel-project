@@ -14,17 +14,58 @@ body {
 
 .bg-layout {
   background-color: black;
-  padding: 50px;
+  
 }
 
 .header {
   font-size: 5rem;
 }
-.width-login {
-    min-width: 40rem;
-    height: 35rem;
-    margin-top: 10rem;
+
+.formContainer{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+
 }
+.formWrapper{
+  background-color: white;
+  padding: 4rem 6rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.formWrapper form{
+display: flex;
+flex-direction: column;
+gap: 15px;
+align-items: center;
+
+
+}
+
+.formWrapper input{
+  border-radius: 5px;
+  padding: 7px;
+  width: 20rem;
+  
+}
+.formWrapper h1{
+  color: red;
+font-size: 2rem;
+font-weight: bold;
+}
+.formWrapper h4{
+  font-size: 1.6rem;
+
+  }
+.form-grid{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
 
 
 
