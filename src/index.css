@@ -49,13 +49,16 @@ align-items: center;
 .formWrapper input{
   border-radius: 5px;
   padding: 7px;
-  width: 20rem;
+  width: 25rem;
+  font-size: 1.5rem;
+  
   
 }
 .formWrapper h1{
   color: red;
 font-size: 2rem;
 font-weight: bold;
+
 }
 .formWrapper h4{
   font-size: 1.6rem;
@@ -84,28 +87,4 @@ font-weight: bold;
 
 
 
-.menu-horizontal{
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
 
-}
-.menu-horizontal > li > a{
-  display: block;
-  padding: 15px 20px;
-  color: white;
-  text-decoration: none;
-}
-.menu-horizontal > li:hover{
-  background-color: red;
-}
-.menu-vertical{
-  position: absolute;
-  display: none;
-  list-style: none;
-  width: 200px;
-  background-color: white;
-}
-.menu-horizontal li:hover .menu-vertical{
-  display: block;
-}
