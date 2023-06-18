@@ -1,9 +1,11 @@
+import { Login } from "./components/auth/Login";
 
 
 function App() {
   return (
     <>
-      <h1>Comenzando</h1>
+    <Login/>
+      {/* <h1>Comenzando</h1> */}
     </>
   );
 }
