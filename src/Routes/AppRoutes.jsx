@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { AuthLayout } from "../components/layout/AuthLayout";
 import { Login } from "../components/auth/Login";
 import { Register } from "../components/auth/Register";
+import { Marvel } from "../page/Marvel";
 
 function AppRoutes() {
   return (
@@ -10,6 +11,7 @@ function AppRoutes() {
         <Route index element={<Login />} />
         <Route path="/regiter" element={<Register />} />
       </Route>
+      <Route path="/marvel" element={<Marvel/>}/>
     </Routes>
   );
 }
