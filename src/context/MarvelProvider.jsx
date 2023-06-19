@@ -1,17 +1,20 @@
 /* eslint-disable react/prop-types */
-import { createContext } from "react";
+import { createContext, useState } from "react";
 
 const MarvelContext = createContext();
 
 const MarvelProvider = ({ children }) => {
-  
+  const [series, setSeries] = useState([]);
 
-    return (
-        <MarvelContext.Provider value={{}}>
+  const changeSeries = (serie) => {
+    setSeries(serie);
+  };
 
-        {children}
-      </MarvelContext.Provider>
-    )
+  return (
+    <MarvelContext.Provider value={{ changeSeries, series }}>
+      {children}
+    </MarvelContext.Provider>
+  );
 };
 
 export { MarvelProvider };
